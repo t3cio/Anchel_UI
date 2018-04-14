@@ -23,6 +23,7 @@ $ docker run -d \
 -p 443:443 \
 linagora/linshare-ui-user
 ```
+*******************************************
 
 Build Status
 ----
