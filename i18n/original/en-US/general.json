@@ -162,7 +162,7 @@
   },
   "ME": "Me",
   "MENU_TITLE": {
-    "ADMIN": "Administration",
+    "ADMIN": "Preference",
     "AUDIT": "Activity logs",
     "AUDIT_GLOBAL": "Global activity",
     "AUDIT_UPLOAD_REQUEST": "Upload requests activity",

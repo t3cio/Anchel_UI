@@ -162,7 +162,7 @@
   },
   "ME": "Moi",
   "MENU_TITLE": {
-    "ADMIN": "Administration",
+    "ADMIN": "Preference",
     "AUDIT": "Historique d'activité",
     "AUDIT_GLOBAL": "Activités global",
     "AUDIT_UPLOAD_REQUEST": "Activité des invitations de dépôts",
