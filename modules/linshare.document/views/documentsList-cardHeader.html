@@ -12,9 +12,9 @@
       </div>
     </div></script>
   <div id="breadcrumb-wrap">
-    <div class="menu-popover-ctn hidden-xs clickable waves-effect">
+    <div class="menu-popover-ctn hidden-xs clickable waves-effect" tooltip="Upload File" tooltip-placement="bottom">
       <a class="add-menu-group" tabindex="0" uib-popover-template="'popover-group.html'" popover-placement="bottom" popover-class="menu-popover-flyout-ctn"
-        popover-append-to-body="true" popover-trigger="focus">
+        popover-append-to-body="true" popover-trigger="focus" >
         <i class="zmdi zmdi-plus"></i>
       </a>
     </div>
@@ -35,12 +35,12 @@
             <i class="ls-multi-select" data-ng-class="{'active-link': showCheckboxes}" data-ng-click="$parent.showCheckboxes && resetSelectedDocuments()"></i>
           </a>
         </span>
-        <a class="list-view toolbar-mobile-item col-xs-3 disabled-work-in-progress">
-          <i class="fa fa-th-large" aria-hidden="true"></i>
+        <a class="list-view toolbar-mobile-item col-xs-3 disabled-work-in-progress" >
+          <i class="fa fa-th-large" aria-hidden="true" ></i>
         </a>
         <div class="sort-dropdown col-xs-3 toolbar-mobile-item">
           <div class="dropdown dropdown-standard toolbar-mobile-item" uib-dropdown="" dropdown-append-to-body hover-dropdown-fix>
-            <div class="actions">
+            <div class="actions" tooltip="Sort by" tooltip-placement="bottom">
               <a uib-dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
                 <i class="zmdi zmdi-sort-asc" aria-hidden="true"></i>
               </a>
@@ -105,7 +105,7 @@
         </div>
         <div class="actions">
           <a uib-dropdown dropdown-append-to-body auto-close="outsideClick" hover-dropdown-fix class="input-group-addon last clickable dropdown"
-            x-ng-click="advancedFilterBool = !advancedFilterBool" uib-dropdown-toggle data-original-title="{{ 'TOOLTIP.ADVANCED_FILTER' | translate }}">
+            x-ng-click="advancedFilterBool = !advancedFilterBool" uib-dropdown-toggle data-original-title="{{ 'TOOLTIP.ADVANCED_FILTER' | translate }}" tooltip="Filter By" tooltip-placement="bottom">
             <i class="zmdi hidden-xs clickable ls-settings"> </i>
             <ul uib-dropdown-menu="" class="dropdown-menu uib-dropdown-menu dropdown-menu-right dm-icon dropdown-divided dropdown-content-left">
               <!-- FILTER COMPONENT  -->

@@ -71,8 +71,8 @@
             </div>
         </section>
         <div class="menu-popover-ctn hidden-xs waves-effect" x-ng-class="(!uploadQueueVm.isFromMySpace || !uploadQueueVm.location.mySpace) ? 'disabled-work-in-progress' :
-         'clickable'" flow-btn href="javascript:void(0)">
-            <a class="add-menu-group" tabindex="0" >
+         'clickable'" flow-btn href="javascript:void(0)" tooltip="Upload Files" tooltip-placement="bottom">
+            <a class="add-menu-group" tabindex="0">
                 <i class="zmdi zmdi-plus" ></i>
             </a>
         </div>
@@ -138,7 +138,7 @@
                     </a>
                 </div>
                 <div class="exit-selection actions" x-ng-click="uploadQueueVm.resetSelectedDocuments()">
-                    <a>
+                    <a tooltip="Close" tooltip-placement="bottom">
                         <i class="zmdi zmdi-close"></i>
                     </a>
                 </div>

@@ -64,7 +64,7 @@
                   <li class="col-xs-6" x-ng-show="file.isComplete() || (file.error && !file.canBeRetried)"
                       x-ng-hide="!file.isComplete() || file.canBeRetried"
                       x-ng-class="{'disabled-work-in-progress': file.error || file.doingAsyncUpload}">
-                    <a x-ng-click="uploadQueueVm.showFileInSource(file)">
+                    <a x-ng-click="uploadQueueVm.showFileInSource(file)" >
                       <i class="fa fa-eye" title="{{'SELECTION_TOOLBAR.SHOW_IN_FILES' | translate}}"></i>
                     </a>
                   </li>
@@ -112,7 +112,7 @@
                   <li data-ng-show="file.isComplete() || (file.error && !file.canBeRetried)"
                       data-ng-hide="!file.isComplete() || file.canBeRetried"
                       data-ng-class="{'disabled-work-in-progress': file.error || file.doingAsyncUpload}">
-                    <a data-ng-click="uploadQueueVm.showFileInSource(file)">
+                    <a data-ng-click="uploadQueueVm.showFileInSource(file)" title="Stop">
                       <i class="fa fa-eye" title="{{'SELECTION_TOOLBAR.SHOW_IN_FILES' | translate}}"></i>
                       {{"SELECTION_TOOLBAR.SHOW_IN_FILES" | translate}}
                     </a>

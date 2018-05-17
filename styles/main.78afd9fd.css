@@ -1427,7 +1427,7 @@ a {
 
 a:focus,
 a:hover {
-    color: #8bc34a;
+    color: #89aa42;
     text-decoration: none
 }
 
@@ -8925,11 +8925,11 @@ body {
 }
 
 .bgm-lightgreen {
-    background-color: #8bc34a!important
+    background-color: #89aa42!important
 }
 
 .c-lightgreen {
-    color: #8bc34a!important
+    color: #89aa42!important
 }
 
 .bgm-lime {
@@ -12857,8 +12857,8 @@ input:focus {
     transform: scale(0) rotate(80deg);
     width: 22px;
     height: 9px;
-    border-bottom: 2px solid #8BC34A;
-    border-left: 2px solid #8BC34A;
+    border-bottom: 2px solid #89aa42;
+    border-left: 2px solid #89aa42;
     border-bottom-left-radius: 2px;
     left: -1px;
     top: 1px
@@ -12987,7 +12987,7 @@ html:not(.ie9) .select.fg-line:before {
 }
 
 .fg-line:not([class*=has-]):after {
-    background: #8BC34A
+    background: #89aa42
 }
 
 .fg-line.readonly .form-control {
@@ -13680,7 +13680,7 @@ a.thumbnail:hover {
 }
 
 .modal[data-modal-color=lightgreen] .modal-content {
-    background: #8bc34a
+    background: #89aa42
 }
 
 .modal[data-modal-color=lightblue] .modal-content {
@@ -17045,7 +17045,7 @@ hr.fc-divider {
 .chosen-container-single .chosen-single:after {
     content: "";
     width: 0;
-    background: #8bc34a;
+    background: #89aa42;
     height: 2px;
     position: absolute;
     left: 0;
@@ -17991,15 +17991,15 @@ select.chosen {
 }
 
 .dp-blue .tr-dpnav th {
-    background: #8BC34A
+    background: #89aa42
 }
 
 .dp-blue .tr-dpday th {
-    background: #8BC34A
+    background: #89aa42
 }
 
 .dp-blue .dp-active {
-    background-color: #8BC34A
+    background-color: #89aa42
 }
 
 .dp-blue .dp-actions .btn-link {
@@ -18052,7 +18052,7 @@ select.chosen {
 
 .ng-table .form-control:active,
 .ng-table .form-control:focus {
-    border-color: #8BC34A!important
+    border-color: #89aa42!important
 }
 
 .ng-table-pager {
@@ -18342,7 +18342,7 @@ select.chosen {
 
 .sub-menu>a:hover::after,
 .sub-menu>a:hover::before {
-    color: #0071bc;
+    color: #89aa42;
 }
 .sub-menu>a:active::after
 {
@@ -18351,19 +18351,22 @@ select.chosen {
 .sub-menu.toggled>a:after {
     color:#e7e7e7 !important;
 }
+.sub-menu.toggled>a:hover::after {
+    color:#89aa42 !important;
+}
 
 .upper-container .box-ctn .box-3:hover .box-content .info-box .box-txt {
-    color: #8BC34A!important;
+    color: #89aa42!important;
 }
 
 .upper-container .box-ctn .box-3:hover .card-img i{
-    color:#8BC34A !important;
+    color:#89aa42 !important;
 }
 
 
 .files #breadcrumb-wrap .breadcrumbs-ctn a:last-of-type:hover{
-    color:#8bc34a !important;
+    color:#89aa42 !important;
 }
 .upload-files #breadcrumb-wrap .breadcrumbs-ctn .breadcrumb-current-view a:hover{
-    color:#8bc34a !important;
+    color:#89aa42 !important;
 }
