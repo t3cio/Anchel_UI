@@ -34,11 +34,11 @@
         <ul class="main-menu" x-ng-repeat="tab in lsLeftSidebarVm.tabs">
             <li x-ng-if="tab.link" data-ng-show="!tab.disabled" role="button" class="waves-effect" x-ng-class="{'active simple-menu': currentState.name==tab.name}">
                 <a x-ui-sref="{{tab.link}}" x-ng-class="{'disabled': tab.disabled }" >
-                    <i class="{{tab.icon}}" ></i> <span tooltip="{{tab.name | translate}}" tooltip-placement="right">{{tab.name | translate}}</span> </a>
+                    <i class="{{tab.icon}}" ></i> <span tooltip="{{tab.name | translate}}" tooltip-placement="bottom">{{tab.name | translate}}</span> </a>
             </li>
             <li data-ng-show="!tab.disabled" class="sub-menu" x-ng-if="tab.links" role="button" class="waves-effect" x-ng-class="{'active toggled': currentState.name==tab.name}">
                 <a toggle-submenu>
-                    <i class="{{tab.icon}}"></i><span tooltip="{{tab.name | translate}}" tooltip-placement="right">{{tab.name | translate }} </span> </a>
+                    <i class="{{tab.icon}}"></i><span tooltip="{{tab.name | translate}}" tooltip-placement="bottom">{{tab.name | translate }} </span> </a>
                 <ul>
                     <li data-ng-show="!link.disabled" x-ng-repeat="link in tab.links" role="button" class="waves-effect" x-ng-mouseover="lsLeftSidebarVm.changeColor(link, tab.color)"
                         x-ng-mouseleave="lsLeftSidebarVm.changeColor(link, 'inherit')">
